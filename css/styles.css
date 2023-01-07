@@ -1,0 +1,448 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'futura', 'arial', 'sans-serif';
+}
+
+body {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+}
+
+.body3 {
+  padding: 20px;
+  width: 90%;
+  background-color: blue;
+}
+
+
+
+
+/* ------------ GRILLE ECRAN---------- */
+.container {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.row>div {
+  float: left;
+}
+
+.row::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  padding-top: 20px;
+}
+
+.menuG {
+  padding-bottom: 20px;
+  display: none;
+}
+
+.col-xs-1 {
+  width: calc(100%/12);
+}
+
+.col-xs-2 {
+  width: calc(200%/12);
+}
+
+.col-xs-3 {
+  width: calc(300%/12);
+}
+
+.col-xs-4 {
+  width: calc(400%/12);
+}
+
+.col-xs-5 {
+  width: calc(500%/12);
+}
+
+.col-xs-6 {
+  width: calc(600%/12);
+}
+
+.col-xs-7 {
+  width: calc(700%/12);
+}
+
+.col-xs-8 {
+  width: calc(800%/12);
+}
+
+.col-xs-9 {
+  width: calc(900%/12);
+}
+
+.col-xs-10 {
+  width: calc(1000%/12);
+}
+
+.col-xs-11 {
+  width: calc(1100%/12);
+}
+
+.col-xs-12 {
+  width: calc(1200%/12);
+}
+
+/* ---------------------------------------- */
+
+/* ------------ GRILLE ECRAN SM ---------- */
+
+@media screen and (min-width:700px) {
+
+  .col-sm-1 {
+    width: calc(100%/12);
+  }
+
+  .col-sm-2 {
+    width: calc(200%/12);
+  }
+
+  .col-sm-3 {
+    width: calc(300%/12);
+  }
+
+  .col-sm-4 {
+    width: calc(400%/12);
+  }
+
+  .col-sm-5 {
+    width: calc(500%/12);
+  }
+
+  .col-sm-6 {
+    width: calc(600%/12);
+  }
+
+  .col-sm-7 {
+    width: calc(700%/12);
+  }
+
+  .col-sm-8 {
+    width: calc(800%/12);
+  }
+
+  .col-sm-9 {
+    width: calc(900%/12);
+  }
+
+  .col-sm-10 {
+    width: calc(1000%/12);
+  }
+
+  .col-sm-11 {
+    width: calc(1100%/12);
+  }
+
+  .col-sm-12 {
+    width: calc(1200%/12);
+  }
+
+  .menuG {
+    display: block;
+    margin-left: 15%;
+  }
+
+  #burger {
+    display: none;
+  }
+}
+
+
+/* ------------ GRILLE ECRAN MD ---------- */
+
+@media screen and (min-width:900px) {
+
+  .col-md-1 {
+    width: calc(100%/12);
+  }
+
+  .col-md-2 {
+    width: calc(200%/12);
+  }
+
+  .col-md-3 {
+    width: calc(300%/12);
+  }
+
+  .col-md-4 {
+    width: calc(400%/12);
+  }
+
+  .col-md-5 {
+    width: calc(500%/12);
+  }
+
+  .col-md-6 {
+    width: calc(600%/12);
+  }
+
+  .col-md-7 {
+    width: calc(700%/12);
+  }
+
+  .col-md-8 {
+    width: calc(800%/12);
+  }
+
+  .col-md-9 {
+    width: calc(900%/12);
+  }
+
+  .col-md-10 {
+    width: calc(1000%/12);
+  }
+
+  .col-md-11 {
+    width: calc(1100%/12);
+  }
+
+  .col-md-12 {
+    width: calc(1200%/12);
+  }
+
+  .menuG {
+    display: block;
+    margin-left: 15%;
+  }
+
+  #burger {
+    display: none;
+  }
+
+  article>div:nth-child(3) {
+    margin-left: 30%;
+  }
+
+  article>div {
+    margin: calc(50%/12);
+  }
+}
+
+/* ------------ GRILLE ECRAN LG ---------- */
+
+@media screen and (min-width:1200px) {
+
+  .col-lg-1 {
+    width: calc(100%/12);
+  }
+
+  .col-lg-2 {
+    width: calc(200%/12);
+  }
+
+  .col-lg-3 {
+    width: calc(300%/12);
+  }
+
+  .col-lg-4 {
+    width: calc(400%/12);
+  }
+
+  .col-lg-5 {
+    width: calc(500%/12);
+  }
+
+  .col-lg-6 {
+    width: calc(600%/12);
+  }
+
+  .col-lg-7 {
+    width: calc(700%/12);
+  }
+
+  .col-lg-8 {
+    width: calc(800%/12);
+  }
+
+  .col-lg-9 {
+    width: calc(900%/12);
+  }
+
+  .col-lg-10 {
+    width: calc(1000%/12);
+  }
+
+  .col-lg-11 {
+    width: calc(1100%/12);
+  }
+
+  .col-lg-12 {
+    width: calc(1200%/12);
+  }
+
+  .menuG {
+    display: block;
+    margin-left: 15%;
+  }
+
+  #burger {
+    display: none;
+  }
+
+  article>div:nth-child(3) {
+    margin-left: calc(50%/12);
+  }
+
+  article>div {
+    margin: calc(50%/12);
+  }
+}
+
+/* ------------ STYLE EX. WEATHER ------------ */
+.backgroundWeather{
+    background-color: #bdc3c7;
+}
+.icon>img {
+  height: 10vh;
+}
+
+.infoI>img {
+  float: left;
+  height: 20vh
+}
+
+.headerW {
+  float: left;
+}
+
+#h1W,
+#h2W {
+  padding-left: 20px;
+  text-align: start;
+  float: left;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-top: 2px solid black;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+
+.info1 {
+  float: left;
+  clear: none;
+  width: 52vw;
+  min-width: 20vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.infoT {
+  float: left;
+  font-size: 5em;
+  padding-left: 2vw;
+  padding-top: 1vh;
+}
+
+.infoM {
+  float: left;
+  padding-top: 2vh;
+}
+
+.info2 {
+  float: right;
+  padding-top: 2vh;
+  padding-left: 2vw;
+  min-width: 20vw;
+  clear: none;
+  text-align: left;
+  line-height: 2em;
+}
+
+main {
+  float: left;
+  width: 100vw;
+  clear: both;
+}
+
+#footerW {
+  position: absolute;
+  float: left;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+.day,
+.icon,
+.temp,
+.pollen {
+  width: 25vw;
+}
+
+.day,
+.infoT,
+.tDay {
+  font-weight: 700;
+}
+
+@media screen and (min-width:800px) {
+  .section {
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .day,
+  .icon,
+  .temp,
+  .pollen {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .temp {
+    font-size: 1em;
+  }
+
+  .icon {
+    width: 100%;
+  }
+
+  .day {
+    font-size: .8em;
+    padding-bottom: 10px;
+  }
+
+  .temp {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: .9em;
+  }
+
+  .pollen {
+    font-size: .9em;
+  }
+
+  .day1,
+  .day2,
+  .day3,
+  .day4,
+  .day5,
+  .day6,
+  .day7 {
+    width: 14vw;
+    float: left;
+    padding: 10px;
+  }
+}
