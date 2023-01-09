@@ -19,7 +19,7 @@ body {
 
 
 
-/* ------------ GRILLE ECRAN---------- */
+/* ------------  Grille --------- */
 .container {
   width: 100%;
 }
@@ -100,7 +100,7 @@ footer {
 
 /* ---------------------------------------- */
 
-/* ------------ GRILLE ECRAN SM ---------- */
+/* ------------ GRILLE  SMALL ---------- */
 
 @media screen and (min-width:700px) {
 
@@ -163,7 +163,7 @@ footer {
 }
 
 
-/* ------------ GRILLE ECRAN MD ---------- */
+/* ------------ GRILLE MIDLLE ---------- */
 
 @media screen and (min-width:900px) {
 
@@ -233,7 +233,7 @@ footer {
   }
 }
 
-/* ------------ GRILLE ECRAN LG ---------- */
+/* ------------ GRILLE LARGE ---------- */
 
 @media screen and (min-width:1200px) {
 
@@ -303,7 +303,7 @@ footer {
   }
 }
 
-/* ------------ STYLE EX. WEATHER ------------ */
+/* ------------ STYLE EX. Méteo ------------ */
 .backgroundWeather{
     background-color: #bdc3c7;
 }
